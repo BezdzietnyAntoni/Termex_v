@@ -18,7 +18,7 @@ For `blob_size=44`, `distance=(10,12)`:
 ![a3068.th.gif](gifs/a441012.gif)
 
 ---
-FirstNode is termexLeptonCapture to run this node use (get image from camera and communication with them):
+FirstNode is *termexLeptonCapture* to run this node use (get image from camera and communication with them):
 ```
 rosrun [pkg_name] termexLeptonCapture 
 
@@ -37,4 +37,8 @@ Example reset FFC:
 ```
 rostopic pub -1 comand_console std_msgs/String "FFC"
 ```
+
+Raw image is publish to topic `/lepton_output`, scaled image to `/lepton_scaled`.
+
+---
 
