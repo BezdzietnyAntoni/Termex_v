@@ -30,18 +30,18 @@ For example:
 rosrun termex termexLeptonCapture _freq:=6
 ```
 
-If u want use this node to send converted image u should modify termexLeptonCapture.cpp uncoment SCALED_IMAGE & RESIZE if u need.
+If u want use this node to send converted image u should modify termexLeptonCapture.cpp unncoment SCALED_IMAGE & RESIZE if u need.
 
-To comunicate use topic `comand_console` type message std_msg/String. 
+To communicate use topic `comand_console` type message std_msg/String. 
 Example reset FFC: 
 ```
 rostopic pub -1 comand_console std_msgs/String "FFC"
 ```
 
-Raw image is publish to topic `/lepton_output`, scaled image to `/lepton_scaled`.
+Raw image is published to topic `/lepton_output`, scaled image to `/lepton_scaled`.
 
 ---
-Node witch calculate relocation of blob `termexRelocationBlobs` subscribe `/lepton_output`, and publish `/relocation_array`.
+Node witch calculate relocation of blob `termexRelocationBlobs` subscribe `/lepton_output`, and published `/relocation_array`.
 
 Important field:
 `blob_size` - blob size
