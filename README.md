@@ -41,4 +41,12 @@ rostopic pub -1 comand_console std_msgs/String "FFC"
 Raw image is publish to topic `/lepton_output`, scaled image to `/lepton_scaled`.
 
 ---
+Node witch calculate relocation of blob `termexRelocationBlobs` subscribe `/lepton_output`, and publish `/relocation_array`.
+
+Important field:
+`blob_size` - blob size
+`distance`  - distance between blobs
+
+---
+
 
