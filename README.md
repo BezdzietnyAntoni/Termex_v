@@ -3,17 +3,17 @@
 Results:
 
 ***
-For 'blob_size=30', 'distance=(6,8)':  
+For `blob_size=30`, `distance=(6,8)`:  
 
 ![a3068.th.gif](gifs/a3068.gif)
 
 ***
-For 'blob_size=40', 'distance=(6,8)':  
+For `blob_size=40`, `distance=(6,8)`:  
 
 ![a3068.th.gif](gifs/a4068.gif)
 
 ***
-For 'blob_size=44', 'distance=(10,12)':  
+For `blob_size=44`, `distance=(10,12)`:  
 
 ![a3068.th.gif](gifs/a441012.gif)
 
